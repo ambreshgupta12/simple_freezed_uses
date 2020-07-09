@@ -10,8 +10,8 @@ print(result);
 
 int performedOperation(int operand,Operation operation){
   return operation.map(
-      subtract:(Add) =>operand-Add.value,
-      add:(Subtract) =>operand+Subtract.value,
+      subtract:(Subtract) =>operand-Subtract.value,
+      add:(Add) =>operand+Add.value,
   );
 }
 
